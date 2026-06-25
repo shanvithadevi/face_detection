@@ -1,11 +1,10 @@
 git clone https://github.com/shanvithadevi/face_detection.git
 
 
-cd brain-tumor-detection
+cd face_detection_project
 
 
+pip install opencv-python numpy
 
-pip install torch torchvision streamlit pillow opencv-python
 
-
-python train_model.py
+python object_detection.py
